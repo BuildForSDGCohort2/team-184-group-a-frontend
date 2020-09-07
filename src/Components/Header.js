@@ -1,7 +1,7 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import {Navbar, Nav} from 'react-bootstrap'
-import brand from './../Assets/brand.jpg';
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Navbar, Nav} from "react-bootstrap";
+import brand from  "./../Assets/brand.jpg";
 
  function Header() {
     return (

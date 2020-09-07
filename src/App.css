@@ -36,16 +36,13 @@
     transform: rotate(360deg);
   }
 }
-.item{
+
+.item {
   height: 340px;
   width: 100%;
   background-position: center;
 }
 
-.caroimg{
- 
+.caroimg {
   object-fit: cover;
-}
-.w-100{
-  max-width: 100%;
 }

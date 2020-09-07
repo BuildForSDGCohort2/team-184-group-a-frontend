@@ -1,10 +1,10 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Row, Button, Image, Jumbotron,Col, Carousel } from 'react-bootstrap'
-import Dairyinfield from './../Assets/Dairyinfield.jpg';
-import inarticle from './../Assets/inarticle.jpg';
-import carrots from './../Assets/carrots.jpg';
-import tomato3 from './../Assets/tomato3.jpg';
+import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Container, Row, Button, Image, Jumbotron,Col, Carousel } from "react-bootstrap";
+import Dairyinfield from  "./../Assets/Dairyinfield.jpg";
+import inarticle from  "./../Assets/inarticle.jpg";
+import carrots from  "./../Assets/carrots.jpg";
+import tomato3 from  "./../Assets/tomato3.jpg";
 import  "../App.css";
 
 
@@ -87,6 +87,6 @@ function Landing() {
             </p>
 </Jumbotron>
 </>
-    )
+    );
 }
-export default Landing
+export default Landing;
