@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { Form, Row, Col, Container } from "react-bootstrap";
-export class ProductsForm extends Component {
+
+class ProductsForm extends Component {
   render() {
     return (
       <Container>
