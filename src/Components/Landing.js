@@ -14,64 +14,64 @@ function Landing() {
         <Container fluid  className='caroimg'>
             <Row className='rw'>
                 <Col>
-            <Carousel >
-                <Carousel.Item className='item'>
-                    <Image
-                    rounded
-                    className="d-block w-100"
-                    src={Dairyinfield}
-                    alt="First slide"
-                    />
-                    <Carousel.Caption>
-                    <h3>Mazao products fresh from farm</h3>
-                    <p>Be the first to get</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className='item'>
-                    <Image
-                    rounded
-                    className="d-block w-100"
-                    src={inarticle}
-                    alt="Third slide"
-                    />
+                    <Carousel >
+                        <Carousel.Item className='item'>
+                            <Image
+                            rounded
+                            className="d-block w-100"
+                            src={Dairyinfield}
+                            alt="First slide"
+                            />
+                            <Carousel.Caption>
+                            <h3>Mazao products fresh from farm</h3>
+                            <p>Be the first to get</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item className='item'>
+                            <Image
+                            rounded
+                            className="d-block w-100"
+                            src={inarticle}
+                            alt="Third slide"
+                            />
 
-                    <Carousel.Caption>
-                    <h3>Mazao products fresh from farm</h3>
-                    <p>Be the first to get</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className='item'>
-                    <Image
-                    rounded
-                    className="d-block w-100"
-                    src={carrots}
-                    alt="Third slide"
-                    />
+                            <Carousel.Caption>
+                            <h3>Mazao products fresh from farm</h3>
+                            <p>Be the first to get</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item className='item'>
+                            <Image
+                            rounded
+                            className="d-block w-100"
+                            src={carrots}
+                            alt="Third slide"
+                            />
 
-                    <Carousel.Caption>
-                    <h3>Mazao products fresh from farm</h3>
-                    <p>Be the first to get</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className='item'>
-                    <Image
-                    rounded
-                    className="d-block w-100"
-                    src={tomato3}
-                    alt="Third slide"
-                    />
+                            <Carousel.Caption>
+                            <h3>Mazao products fresh from farm</h3>
+                            <p>Be the first to get</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item className='item'>
+                            <Image
+                            rounded
+                            className="d-block w-100"
+                            src={tomato3}
+                            alt="Third slide"
+                            />
 
-                    <Carousel.Caption>
-                    <h3>Mazao products fresh from farm</h3>
-                    <p>Be the first to get</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                </Carousel>
+                            <Carousel.Caption>
+                            <h3>Mazao products fresh from farm</h3>
+                            <p>Be the first to get</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        </Carousel>
                 </Col>                
             </Row>
     </Container>
-      <Jumbotron>
-            <h1> <u>ABOUT</u> US</h1>
+      <Jumbotron style={{color:""}}>
+            <h1> <b><u>ABOUT</u></b> US</h1>
             <p>
            
                 Mazao direct is an online platform that assist farmers to reach and sell their agricultural products directely to end

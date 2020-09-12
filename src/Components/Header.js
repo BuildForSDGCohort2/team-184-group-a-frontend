@@ -1,11 +1,12 @@
 import React from "react";
+import  "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Navbar, Nav} from "react-bootstrap";
 import brand from  "./../Assets/brand.jpg";
 
  function Header() {
     return (
-        <Navbar expand="lg" style={{backgroundColor:'#09C833'}}>
+        <Navbar expand="lg" className='smooth' style={{backgroundColor:'#09C833'}}>
         <Navbar.Brand href="#home"> <img src={brand} alt=' Mazao Direct' style={{width:'100px', height:'50px',borderRadius:'3px'}}  /> Mazao Direct</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
