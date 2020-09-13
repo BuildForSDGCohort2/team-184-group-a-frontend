@@ -1,11 +1,15 @@
 import React from "react";
-import Header from "./Components/Header";
-import "./App.css";
+import  "./App.css";
+import Header from   "./Components/Header";
+import Landing from   "./Components/Landing";
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+   < Header/>
+   <secction><Landing/></secction>
+
     </div>
   );
 }
