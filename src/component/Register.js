@@ -42,7 +42,7 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
             );
         }
     render() {
-        const {firstname, lastname, username,location ,county, phone, email, photo} = this.state;
+        const {firstname, lastname, username,location ,county, phone, email} = this.state;
         return (
             <div>
             <Header/>
