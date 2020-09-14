@@ -16,20 +16,19 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
             phone:"",
             email:"",
             photo: null
-         }
+         };
          this.HandleChange=this.HandleChange.bind(this);
          this.HandleFileChange=this.HandleFileChange.bind(this);
         }
 
-        HandleChange = e => {
-            console.log(e.target.value)
+        HandleChange = (e) => {
             this.setState({[e.target.name]:e.target.value});
         }
-        HandleFileChange = e => {
+        HandleFileChange = (e) => {
             this.setState({photo:e.target.files[0],loaded:0,
             });
         }
-        onSubmit= e => {
+        onSubmit= (e) => {
             e.preventDefault();
             farmer(
                 this.state.firstname,
@@ -197,6 +196,6 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
             </Container>
             </div>
         )
-    }
+    };
 }
 export default Register;

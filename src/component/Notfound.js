@@ -6,8 +6,8 @@ import React, { Component } from "react";
             <div>
                  <h2>404 page Not Found!</h2>
             </div>
-        )
+        );
     }
 }
 
-export default Notfound
+export default Notfound;

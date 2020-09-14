@@ -20,7 +20,7 @@ import {
             <Redirect to= "/Home"/>
         </Switch>
       </Router>
-    )
+    );
   }
 }
 export default App;
