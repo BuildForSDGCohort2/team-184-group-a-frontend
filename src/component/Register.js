@@ -195,7 +195,7 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
                 </Row>
             </Container>
             </div>
-        )
+        );
     }
-};
+}
 export default Register;
