@@ -201,4 +201,4 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
     }
 }
 
-export default Register
+export default Register;
