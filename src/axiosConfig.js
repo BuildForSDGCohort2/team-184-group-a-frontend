@@ -9,24 +9,22 @@ const config = {
 };
 
 //Clieent registartion API
-export const Farmer =(firstname, lastname, username, location ,county, phone, email, photo)=>{
+export const farmer =(firstname, lastname, username, location ,county, phone, email, photo)=> {
 
     const fd = new FormData()
-    fd.append("firstname",firstname)
-    fd.append("lastname",lastname)
-    fd.append("username", username)
-    fd.append("location",location)
-    fd.append("county",county)
-    fd.append("phone",phone)
-    fd.append("email",email)
-    fd.append("photo",photo)
+    fd.append("firstname",firstname);
+    fd.append("lastname",lastname);
+    fd.append("username", username);
+    fd.append("location",location);
+    fd.append("county",county);
+    fd.append("phone",phone);
+    fd.append("email",email);
+    fd.append("photo",photo);
     
-    axios.post("url", fd, config)
-    .then(res => {
-        console.log(res)
+    axios.post("url", fd, config).then((res) => {
         toast.success("Input Successful")
     })
-    .catch(err => {
+    .catch((err) => {
         console.error(err); 
-    })
+    });
 } 

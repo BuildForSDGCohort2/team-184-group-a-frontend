@@ -20,7 +20,7 @@ import brand from  "./../Assets/brand.jpg";
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-    )
+    );
   }
 }
 

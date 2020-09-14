@@ -88,7 +88,7 @@ import  "../App.css";
                 </p>
     </Jumbotron>
     </div>
-        )
+);
     }
 }
 export default Landing;

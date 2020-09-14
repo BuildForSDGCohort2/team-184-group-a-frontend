@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Farmer} from "../axiosConfig";
+import {farmer} from "../axiosConfig";
 import Header from "./Header";
 import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
 
  class Register extends Component {
      constructor(){
-         super()
+         super();
          this.state = {
             firstname:"",
             lastname:"",
@@ -17,22 +17,21 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
             email:"",
             photo: null
          }
-         this.HandleChange=this.HandleChange.bind(this)
-         this.HandleFileChange=this.HandleFileChange.bind(this)
+         this.HandleChange=this.HandleChange.bind(this);
+         this.HandleFileChange=this.HandleFileChange.bind(this);
         }
 
-        HandleChange = e =>{
+        HandleChange = e => {
             console.log(e.target.value)
-            this.setState({[e.target.name]:e.target.value})
+            this.setState({[e.target.name]:e.target.value});
         }
-        HandleFileChange = e =>{
-            console.log(e.target.files[0])
+        HandleFileChange = e => {
             this.setState({photo:e.target.files[0],loaded:0,
-            })
+            });
         }
-        onSubmit= e =>{
-            e.preventDefault()
-            Farmer(
+        onSubmit= e => {
+            e.preventDefault();
+            farmer(
                 this.state.firstname,
                 this.state.lastname,
                 this.state.username,
@@ -44,7 +43,7 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
             );
         }
     render() {
-        const {firstname, lastname, username,location ,county, phone, email, photo} = this.state
+        const {firstname, lastname, username,location ,county, phone, email, photo} = this.state;
         return (
             <div>
             <Header/>
