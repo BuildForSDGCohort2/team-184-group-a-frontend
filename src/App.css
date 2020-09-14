@@ -49,10 +49,10 @@
 }
 .form-reg{
   box-shadow: darkgray 10px;
-  background-color: #789190;
+  background-color: #6d706c;
   color: aliceblue;
   font-size: 1em;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 6px solid #305a72;
 }
 h1 em{
@@ -61,4 +61,7 @@ h1 em{
 }
 .smooth{
   position: fixed;
+}
+.span-s{
+ text-align: center;
 }
