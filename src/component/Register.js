@@ -30,7 +30,6 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
         }
         onSubmit= (e) => {
             e.preventDefault();
-            console.log(this.state)
             farmer(
                 this.state.firstname,
                 this.state.lastname,

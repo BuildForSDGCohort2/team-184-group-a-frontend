@@ -22,7 +22,6 @@ export const farmer = (firstname, lastname, username, location, address, phone, 
     fd.append("photo",photo);
     
     axios.post("https://mazao-app.herokuapp.com/viewsModel/farmers/", fd, config).then((res) => {
-        console.log(res)
         toast.success("Input Successful");
     })
     .catch((err) => {
