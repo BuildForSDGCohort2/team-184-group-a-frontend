@@ -25,6 +25,5 @@ export const farmer = (firstname, lastname, username, location, address, phone, 
         toast.success("Input Successful");
     })
     .catch((err) => {
-        console.log(err)
     });
 };
