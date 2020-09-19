@@ -12,7 +12,7 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
             lastname:"",
             username:"",
             location:"",
-            county:"",
+            address:"",
             phone:"",
             email:"",
             photo: null
@@ -35,14 +35,14 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
                 this.state.lastname,
                 this.state.username,
                 this.state.location,
-                this.state.county,
+                this.state.address,
                 this.state.phone,
                 this.state.email,
                 this.state.photo
             );
         }
     render() {
-        const {firstname, lastname, username,location ,county, phone, email} = this.state;
+        const {firstname, lastname, username,location ,address, phone, email} = this.state;
         return (
             <div>
             <Header/>
@@ -120,14 +120,14 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
                         </Form.Row>
                         <Form.Row>
                             <Form.Group as={Col} md="6">
-                                <Form.Label style={{ float:"left"}}>County</Form.Label>
+                                <Form.Label style={{ float:"left"}}>Address</Form.Label>
                                         <Form.Control 
                                             type="text" 
-                                            placeholder="County" 
+                                            placeholder="Address" 
                                             required
-                                            name="county"
+                                            name="address"
                                             id="countyid"
-                                            value={county}
+                                            value={address}
                                             onChange={this.HandleChange}
                                             />
                                         <Form.Control.Feedback type="invalid">
