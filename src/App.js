@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import  "./App.css";
 import Landing from "./component/Landing";
-//import Notfound from "./component/Notfound";
+import ProductForm from "./component/ProductForm";
 import Register from "./component/Register";
 import { 
   BrowserRouter as Router,
@@ -16,6 +16,7 @@ import {
         <Switch>
             <Route exact path ="/" component={Landing}/>
             <Route exact path ="/Register" component={Register}/>
+            <Route exact path ="/ProductForm" component={ProductForm}/>
             <Route path = "/Home" component={Landing}/>
             <Redirect to= "/Home"/>
         </Switch>
