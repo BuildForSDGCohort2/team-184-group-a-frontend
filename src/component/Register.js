@@ -80,14 +80,11 @@ import {Form, Container,Row, Col,InputGroup, Button  } from "react-bootstrap";
                                         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group as={Col} md="4">
-                                <Form.Label style={{ float:"left"}}>Username</Form.Label>
+                                <Form.Label style={{ float:"left"}}>Description</Form.Label>
                                 <InputGroup>
-                                    <InputGroup.Prepend>
-                                    <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-                                    </InputGroup.Prepend>
                                         <Form.Control
                                                 type="text"
-                                                placeholder="Username"
+                                                placeholder="e.g Daily Farmer"
                                                 aria-describedby="inputGroupPrepend"
                                                 required
                                                 name="username"
