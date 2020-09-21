@@ -3,6 +3,7 @@ import  "./App.css";
 import Landing from "./component/Landing";
 //import Notfound from "./component/Notfound";
 import Register from "./component/Register";
+import Farmers from "./component/Farmers";
 import { 
   BrowserRouter as Router,
   Route, 
@@ -15,6 +16,7 @@ import {
       <Router>
         <Switch>
             <Route exact path ="/" component={Landing}/>
+            <Route exact path ="/Farmers" component={Farmers}/>
             <Route exact path ="/Register" component={Register}/>
             <Route path = "/Home" component={Landing}/>
             <Redirect to= "/Home"/>
