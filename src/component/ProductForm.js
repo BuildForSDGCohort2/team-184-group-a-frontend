@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import { Form, Button, Col, Row } from "react-bootstrap";
+import Header from "./Header";
 
 export class ProductForm extends Component {
   render() {
     return (
+      <>
+      <Header/>
+      <hr></hr>
       <div className="container">
+        
         <div className="row">
           <div className="col-md-8">
             <Form>
@@ -86,6 +91,7 @@ export class ProductForm extends Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
 }

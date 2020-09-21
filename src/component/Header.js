@@ -12,7 +12,7 @@ import brand from  "./../Assets/brand.jpg";
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end"  style={{width:"100%"}} >
               <Nav.Link href="/Landing" style={{color:"#FFFBFB"}} >Home</Nav.Link>
-              <Nav.Link href="#link"style={{color:"#FFFBFB"}} >Products</Nav.Link>
+              <Nav.Link href="/ProductForm"style={{color:"#FFFBFB"}} >Products</Nav.Link>
               <Nav.Link href="/Farmers" style={{color:"#FFFBFB"}}>Our Farmers</Nav.Link>
               <Nav.Link style={{color:"#FFFBFB"}}>Contact us</Nav.Link>
               <Nav.Link href="/Register"  style={{color:"#FFFBFB"}}>Register</Nav.Link>
